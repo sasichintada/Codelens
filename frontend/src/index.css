@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background:#0b1220;
+  font-family:'Inter',sans-serif;
+  color:#e5e7eb;
+}
+
+#root{
+  width:100%;
+}
+
+/* Increase code editor font size */
+textarea{
+  font-size:20px;
+  line-height:1.6;
+}
+
+/* Increase code blocks font size (Original / Optimized panels) */
+pre{
+  font-size:18px;
+  line-height:1.6;
+}
+
+code{
+  font-size:18px;
+}
